@@ -7,7 +7,7 @@ output:
 ---
 
 ```{r global_options}
-knitr::opts_chunk$set(fig.path='PA1_Template_files/')
+knitr::opts_chunk$set(fig.path='PA1_Template_files/',echo = TRUE)
 ```
 
 ###Activity Monitoring Data
