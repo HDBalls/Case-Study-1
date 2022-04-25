@@ -109,8 +109,9 @@ Total_Steps <- activity_data[, c(lapply(.SD, sum)), .SDcols = c("steps"), by = .
 ```{r, echo=TRUE}
 Total_Steps[, .(Mean_Steps = mean(steps), Median_Steps = median(steps))]
 ggplot(Total_Steps, aes(x = steps)) + geom_histogram(fill = "green",binwidth = 500) + labs(title = "Daily Steps", x = "Steps", y = "Frequency")
-![](https://github.com/HDBalls/Case-Study-1/blob/main/PA1_Template_files/unnamed-chunk-14-1.png
+![](https://github.com/HDBalls/Case-Study-1/blob/main/PA1_Template_files/unnamed-chunk-14-1.png)
 ```
+![](https://github.com/HDBalls/Case-Study-1/blob/main/PA1_Template_files/unnamed-chunk-6-1.png)
 
 #4.3
 #   Mean_Steps      Median_Steps
